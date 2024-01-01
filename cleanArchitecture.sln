@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cleanArchitecture.API", "cleanArchitecture.API\cleanArchitecture.API.csproj", "{FA3088ED-2BF0-4991-A845-66AA62097AE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cleanArchitecture.API", "cleanArchitecture.API\cleanArchitecture.API.csproj", "{FA3088ED-2BF0-4991-A845-66AA62097AE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cleanArchitecture.Core", "cleanArchitecture.Core\cleanArchitecture.Core.csproj", "{FE30C2C2-E4AA-41EC-AE3A-FAA17A411DAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cleanArchitecture.Core", "cleanArchitecture.Core\cleanArchitecture.Core.csproj", "{FE30C2C2-E4AA-41EC-AE3A-FAA17A411DAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cleanArchitecture.Infrastructure", "cleanArchitecture.Infrastructure\cleanArchitecture.Infrastructure.csproj", "{A8F42A04-E726-492A-BDE5-BEDF5C5B3859}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cleanArchitecture.Infrastructure", "cleanArchitecture.Infrastructure\cleanArchitecture.Infrastructure.csproj", "{A8F42A04-E726-492A-BDE5-BEDF5C5B3859}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cleanArchitecture.Services", "cleanArchitecture.Services\cleanArchitecture.Services.csproj", "{589BEEAA-3EAC-4648-8759-E0E97B84A144}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cleanArchitecture.Services", "cleanArchitecture.Services\cleanArchitecture.Services.csproj", "{589BEEAA-3EAC-4648-8759-E0E97B84A144}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualAssistantBot", "..\VirtualAssistantBot\VirtualAssistantBot.csproj", "{EA4AE5D7-672C-4726-8234-0AFAFBE3FFEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualAssistantBot", "VirtualAssistantBot\VirtualAssistantBot.csproj", "{BC3E2CE2-ECD8-4725-B07E-43D7BC0BB6F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{589BEEAA-3EAC-4648-8759-E0E97B84A144}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{589BEEAA-3EAC-4648-8759-E0E97B84A144}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{589BEEAA-3EAC-4648-8759-E0E97B84A144}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EA4AE5D7-672C-4726-8234-0AFAFBE3FFEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA4AE5D7-672C-4726-8234-0AFAFBE3FFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA4AE5D7-672C-4726-8234-0AFAFBE3FFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA4AE5D7-672C-4726-8234-0AFAFBE3FFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3E2CE2-ECD8-4725-B07E-43D7BC0BB6F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3E2CE2-ECD8-4725-B07E-43D7BC0BB6F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3E2CE2-ECD8-4725-B07E-43D7BC0BB6F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3E2CE2-ECD8-4725-B07E-43D7BC0BB6F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,14 +8,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace cleanArchitecture.Services
 {
     public static class ServicesRegistration
     {
         public static void AddServicesRegistration(this WebApplicationBuilder Builder)
         {
-
-            Builder.Services.AddTransient<ICarServices, CarServices>();
+            Builder.Services.AddTransient<ICarServices,CarServices>();
         }
     }
 }

@@ -1,3 +1,6 @@
+using cleanArchitecture.Infrastructure;
+using cleanArchitecture.Services;
+
 namespace cleanArchitecture.API
 {
     public class Program
@@ -10,6 +13,8 @@ namespace cleanArchitecture.API
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.AddInfrastructureRegistration();
+            builder.AddServicesRegistration();
 
             var app = builder.Build();
 

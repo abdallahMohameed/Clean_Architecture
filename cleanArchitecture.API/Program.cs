@@ -1,5 +1,7 @@
 using cleanArchitecture.Infrastructure;
+using cleanArchitecture.Infrastructure.Data;
 using cleanArchitecture.Services;
+using Microsoft.EntityFrameworkCore;
 
 namespace cleanArchitecture.API
 {
@@ -15,6 +17,11 @@ namespace cleanArchitecture.API
             builder.Services.AddSwaggerGen();
             builder.AddInfrastructureRegistration();
             builder.AddServicesRegistration();
+
+            builder.Services.AddDbContext<ApplicationDBContext>(options =>
+            {
+                options.UseSqlServer("");
+            });
 
             var app = builder.Build();
 
